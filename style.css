@@ -6,7 +6,7 @@
 
 
 #maincontainer{
-    height:100vh;
+    height:400vh;
     width: 100%;
     background-color: white;
 
@@ -16,6 +16,7 @@
     display: block;
     position: absolute;
     top: -29%;
+    z-index: 1;
 }
 
 #secondimg{
@@ -40,6 +41,7 @@
     font-size: 33px;
     font-weight: 700;
     padding-top: -20px;
+    z-index: 1;
 }
  
  #firtcities{
@@ -55,6 +57,7 @@
     gap: 10px;
     background-origin: padding-box;
     padding-top: 4px;
+    z-index: 1;
  }
  #cities1{
     height: 45px;
@@ -153,6 +156,7 @@
     flex-direction: row;
     gap: 10px;
     background-origin: padding-box; 
+    z-index: 1;
  }
  #town1{
     height: 45px;
@@ -201,10 +205,12 @@
     text-align: center;
     font-family: Glovo, Helvetica, Arial, sans-serif;
     padding-top: 13px;
+    z-index: 1;
  }
  .aref{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
  }
  #top{
     height: 60px;
@@ -217,6 +223,7 @@
     font-size: 45px;
     font-weight: 700;
     color: black;
+    z-index: 1;
  }
  #categorycontainer{
     height: 50px;
@@ -230,6 +237,7 @@
     justify-content: space-around;
     padding-top: 6px;
     gap: 8px;
+    z-index: 1;
 
  }
  #listcontainer1{
@@ -336,9 +344,59 @@
     text-align: center;
     font-family: Glovo, Helvetica, Arial, sans-serif;
     padding-top: 13px;
+    z-index: 1;
  }
-
-
+#main{
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 150%;
+}
+#phonelogo{
+    height: 670px;
+    width: 47%;
+    /* background-color: red; */
+}
+#phone{
+    position: absolute;
+    left: 26%;
+    top: 20%;
+}
+#download{
+    font-size: 45px;
+    padding-top: 46%;
+    font-family: arial;
+    padding-left: 30%;
+    font-weight: 700;
+}
+#words{
+    font-size: 19px;
+    font-family: calibri;
+    padding-left: 25%;
+    line-height: 30px;
+}
+#apple{
+    /* width: 140px; */
+    position: absolute;
+    left: 20%;
+    top: 57%;
+}
+#google{
+    /* width: 140px; */
+    position: absolute;
+    left: 30%;
+    top: 57%;
+}
+#dektoplogo{
+    height: 670px;
+    width: 53%;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 47%;
+    top: -10%;
+   
+}
 
 
 
